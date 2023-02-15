@@ -105,7 +105,7 @@ header{
 .cart-price{
     font-weight: 500;
 }
-.card-quantity{
+.cart-quantity{
     border: 1px solid var(--text-color);
     outline-color:var(--main-color);
     width: 2.4rem;
