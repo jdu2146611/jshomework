@@ -12,7 +12,7 @@ closeCart.onclick =() =>{
 };
 
 if (document.readyState == "loading" ) {
-    document.addEventListgitener("DOMContentLoaded", ready);
+    document.addEventListener("DOMContentLoaded", ready);
 } else{
     ready();
 }
@@ -24,9 +24,9 @@ function ready(){
     console.log(removeCartButtons)
     for (var i = 0; i < removeCartButtons.length; i++) {
         var button = removeCartButtons[i];
-        button.addEventListener('click', removeCartItem);
+        button.addEventListener("click", removeCartItem);
    }
- // royxat qismi
+ // miqdorini hisoblash
   var quantityInputs = document.getElementsByClassName("cart-quantity")
   for (var i = 0; i < quantityInputs.length; i++){
     var input = quantityInputs[i];
@@ -39,7 +39,7 @@ function removeCartItem(event){
     buttonClicked.parentElement.remove();
     updatetotal();
 }
-
+// miqdori o'zgartirish funksiyasi
 function quantityChanged(event){
     var input = event.target;
     if (isNaN(input.value) || input.value <= 0) {
