@@ -12,7 +12,7 @@ closeCart.onclick =() =>{
 };
 
 if (document.readyState == "loading" ) {
-    document.addEventListener("DOMContentLoaded", ready);
+    document.addEventListgitener("DOMContentLoaded", ready);
 } else{
     ready();
 }
