@@ -23,18 +23,18 @@ img{
 body{
     color: var(--text-color);
 }
- .container{
+  .container{
     max-width: 1080px;
-    margin: 0;
+    margin: auto;
     width: 90%;
 
-}
+} 
 section{
     padding: 4rem 0 3rem;
 }
 header{
     position: fixed;
-    top: 0;
+    top: -80px;
     left: 0;
     width: 100%;
     background: var(--bg-color);
