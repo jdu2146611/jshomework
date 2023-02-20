@@ -3,12 +3,12 @@ let cart = document.querySelector(".cart");
 let closeCart = document.querySelector("#close-cart");
 var counter = 1;
 setInterval(function(){
-    document.getElementById?('radio' + counter).checked=true;
+    document.getElementById?('radio' + counter).checked=true:
     counter++;
     if(counter > 3){
         counter = 1;
     }
-},5000)
+},5000);
 
 //Kartani ochish
 cartIcon.onclick =() =>{
