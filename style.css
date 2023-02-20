@@ -23,10 +23,10 @@ img{
 body{
     color: var(--text-color);
 }
-.container{
-    max-width: 1068px;
+ .container{
+    max-width: 1080px;
     margin: auto;
-    width: 100%;
+    width: 90%;
 
 }
 section{
@@ -53,15 +53,7 @@ header{
     color: var(--text-color);
     font-weight: 400;
 
-}
-.container2{
-    border: none;
-    outline: none;
-    box-shadow: none;
-}
-.container i{
- padding: 10px;
- margin: -24px;
+
 }
 #cart-icon{
     font-size: 1.8rem;
@@ -222,4 +214,9 @@ header{
     color: var(--bg-color);
     padding: 10px;
     cursor: pointer;
+}
+.search-item{
+    margin-top:auto;
+    padding: 10px;
+
 }
